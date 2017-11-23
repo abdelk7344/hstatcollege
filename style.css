@@ -1,0 +1,105 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#homepic {
+  display: table;
+  width: 100%;
+  height: 100%;
+  background:  linear-gradient( rgba(33,37,41,.9), rgba(0, 0, 0, 0.8)), url('img/tele.png') no-repeat center;
+  /*background:rgba(0, 0, 0, 0.5);*/
+  background-size: cover;
+}
+
+.heading {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  color: white;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 85px;
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+}
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card {
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .intro-text {
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  }
+}
+
+.intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+  color:white;
+}
+
+.intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  .intro-text .intro-lead-in {
+    font-size: 40px;
+    font-style: italic;
+    line-height: 40px;
+    margin-bottom: 25px;
+    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .intro-text .intro-heading {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
