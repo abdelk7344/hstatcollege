@@ -17,6 +17,7 @@ body {
   background:  linear-gradient( rgba(33,37,41,.9), rgba(0, 0, 0, 0.8)), url('img/tele.png') no-repeat center;
   /*background:rgba(0, 0, 0, 0.5);*/
   background-size: cover;
+  margin-bottom: 50px;
 }
 
 .heading {
@@ -67,13 +68,6 @@ body {
   color:white;
 }
 
-.intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
-  line-height: 22px;
-  margin-bottom: 25px;
-  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
 
 .intro-text .intro-heading {
   font-size: 50px;
@@ -88,9 +82,8 @@ body {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  .intro-text .intro-lead-in {
+  .intro-text  {
     font-size: 40px;
-    font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
