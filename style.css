@@ -14,7 +14,7 @@ body {
   display: table;
   width: 100%;
   height: 100%;
-  background:  linear-gradient( rgba(33,37,41,.4), rgba(0, 0, 0, 0.35)), url('img/tele.png') no-repeat center;
+  background: linear-gradient( rgba(33, 37, 41, .45), rgba(0, 0, 0, 0.35)), url('img/tele.png') no-repeat center;
   /*background:rgba(0, 0, 0, 0.5);*/
   background-size: cover;
   margin-bottom: 50px;
@@ -27,15 +27,16 @@ body {
   color: white;
 }
 
-h1 {
-  font-family: 'Lobster', cursive;
-  font-size: 85px;
+
+h2,h4{
+  color: #212529; 
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: 0 0 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase; 
 }
 
-h2 {
-  font-family: 'Indie Flower', cursive;
-  font-size: 40px;
-}
 
 body {
   padding-top: 54px;
@@ -65,7 +66,7 @@ body {
   padding-top: 150px;
   padding-bottom: 100px;
   text-align: center;
-  color:white;
+  color: white;
 }
 
 
@@ -82,7 +83,7 @@ body {
     padding-top: 300px;
     padding-bottom: 200px;
   }
-  .intro-text  {
+  .intro-text {
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 25px;
@@ -94,5 +95,49 @@ body {
     line-height: 75px;
     margin-bottom: 50px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+}
+
+.btn {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-circle {
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  margin-top: 15px;
+  line-height: 45px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  background: transparent;
+}
+
+.btn-circle:focus,
+.btn-circle:hover {
+  color: white;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.content-section {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+@media (min-width: 992px) {
+  .content-section {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
