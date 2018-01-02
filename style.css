@@ -4,14 +4,27 @@ body {
   height: 100%;
 }
 
-#homepic {
+.landing-section {
   display: table;
   width: 100%;
   height: 100%;
-  background: linear-gradient( rgba(33, 37, 41, .45), rgba(0, 0, 0, 0.35)), url('img/tele.png') no-repeat center;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+  background: linear-gradient( rgba(33, 37, 41, .45), rgba(0, 0, 0, 0.35)), url('img/tele.png') no-repeat top;
   /*background:rgba(0, 0, 0, 0.5);*/
   background-size: cover;
   margin-bottom: 50px;
+}
+
+.btn{
+  margin-top: 100px;
+}
+
+#title{
+  /*padding-bottom: 150px;*/
+  /*  font-size: 100px;*/
+    color: white;
 }
 
 .heading {
@@ -252,4 +265,12 @@ header.masthead .post-heading .meta a {
   header.masthead .post-heading .subheading {
     font-size: 30px;
   }
+}
+
+/*seniors*/
+.A {
+  background:#ED8C72; 
+}
+.B {
+  background:#F4EADE;
 }
