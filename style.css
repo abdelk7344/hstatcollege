@@ -4,6 +4,7 @@ body {
   height: 100%;
 }
 
+/*Landing Section*/
 .landing-section {
   display: table;
   width: 100%;
@@ -139,9 +140,13 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.content-section {
-  padding-top: 250px;
-  padding-bottom: 250px;
+/*About Section*/
+.about-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  /*padding-top: 500px;*/
+  /*padding-bottom: 500px;*/
 }
 
 @media (min-width: 992px) {
@@ -268,9 +273,8 @@ header.masthead .post-heading .meta a {
 }
 
 /*seniors*/
-.A {
-  background:#ED8C72; 
-}
-.B {
-  background:#F4EADE;
+#seniors-landing{
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-image: url('img/campus.jpg');
 }
