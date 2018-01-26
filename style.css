@@ -5,6 +5,7 @@ body {
 }
 
 /*Landing Section*/
+
 .landing-section {
   display: table;
   width: 100%;
@@ -18,14 +19,14 @@ body {
   margin-bottom: 50px;
 }
 
-.btn{
+.btn {
   margin-top: 100px;
 }
 
-#title{
-    padding-top: 50px;
-    font-size: 100px;
-    color: white;
+#title {
+  padding-top: 50px;
+  font-size: 100px;
+  color: white;
 }
 
 .heading {
@@ -141,6 +142,7 @@ body {
 }
 
 /*About Section*/
+
 .about-section {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -273,13 +275,39 @@ header.masthead .post-heading .meta a {
 }
 
 /*seniors*/
-#seniors-landing{
+
+#seniors-landing {
   padding-top: 125px;
   padding-bottom: 125px;
   background-image: url('img/campus.jpg');
 }
-#juniors-landing{
+
+#juniors-landing {
   padding-top: 125px;
   padding-bottom: 125px;
   background-image: url('img/advice.jpg');
+}
+
+#advice {
+  border-radius: 25px;
+}
+
+#test {
+  color: black;
+  /*font-family: 'Lobster Two', cursive;*/
+  font-size: 25px;
+  box-shadow: 5px 5px #07575B;
+  background-color: #C4DFE6;
+  /*border-radius: 25px;*/
+}
+
+/*#special {*/
+/*  box-shadow: 5px 5px #669966;*/
+/*}*/
+.topic {
+  text-align: center;
+  font-size: 37px;
+  background-color: #C4DFE6;
+  font-family: 'Lobster', cursive;
+  box-shadow: 5px 5px #07575B;
 }
