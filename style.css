@@ -311,3 +311,12 @@ header.masthead .post-heading .meta a {
   font-family: 'Lobster', cursive;
   box-shadow: 5px 5px #07575B;
 }
+
+/*parents*/
+.dropdown{
+  padding-left: 500px;
+  height: 50px;
+}
+li .dropdown-menu{
+  padding-left: 500px;
+}
