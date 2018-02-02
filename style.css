@@ -302,8 +302,11 @@ header.masthead .post-heading .meta a {
 }
 
 /*#special {*/
+
 /*  box-shadow: 5px 5px #669966;*/
+
 /*}*/
+
 .topic {
   text-align: center;
   font-size: 37px;
@@ -313,10 +316,18 @@ header.masthead .post-heading .meta a {
 }
 
 /*parents*/
-.dropdown{
+
+.dropdown {
   padding-left: 500px;
   height: 50px;
 }
-li .dropdown-menu{
+
+li .dropdown-menu {
   padding-left: 500px;
+}
+
+#parents-landing {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-image: url('img/parents1.jpg');
 }
