@@ -10,18 +10,15 @@ body {
   display: table;
   width: 100%;
   height: 100%;
-  padding-top: 150px;
+  padding-top: 150px;/*looks great with out 13 and 14 on my laptop: insert media query to solve this issue*/
   padding-bottom: 100px;
   text-align: center;
   background: linear-gradient( rgba(33, 37, 41, .45), rgba(0, 0, 0, 0.35)), url('img/tele.png') no-repeat top;
-  /*background:rgba(0, 0, 0, 0.5);*/
   background-size: cover;
   margin-bottom: 50px;
 }
 
-.btn {
-  margin-top: 100px;
-}
+
 
 #title {
   padding-top: 50px;
