@@ -285,6 +285,19 @@ header.masthead .post-heading .meta a {
   background-image: url('img/advice.jpg');
 }
 
+#test-landing {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-image: url('img/satprep.jpg');
+}
+
+#teacher-landing {
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-image: url('img/teacher.jpg');
+}
+
+
 #advice {
   border-radius: 25px;
 }

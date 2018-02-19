@@ -1,17 +1,2 @@
- @media (min-width: 768px) {
-     .navbar-nav>li {
-         border-left: 1px solid #000000;
-     }
-     .navbar {
-         border-radius-bottom-left: 5px;
-         border-radius-bottom-right: 5px;
-         width: 100%;
-     }
-     .nav>li>a:hover,
-     .nav>li>a:focus {}
- }
 
- .navbar {
-     border: 1px solid #000000;
- }
  
