@@ -55,9 +55,9 @@ body {
   }
 }
 
-.card {
-  height: 100%;
-}
+/*.card {*/
+/*  height: 100%;*/
+/*}*/
 
 @media (min-width: 768px) {
   .intro-text {
@@ -310,12 +310,6 @@ header.masthead .post-heading .meta a {
   background-color: #C4DFE6;
   /*border-radius: 25px;*/
 }
-
-/*#special {*/
-
-/*  box-shadow: 5px 5px #669966;*/
-
-/*}*/
 
 .topic {
   text-align: center;
