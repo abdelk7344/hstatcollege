@@ -19,7 +19,29 @@
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
 
   <link href="style.css" rel="stylesheet">
-  <script src="query.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+          // Store hash
+          var hash = this.hash;
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
 
 </head>
 
@@ -61,23 +83,28 @@
     </div>
   </nav>
 
-  <!--Landing Section-->
-  <section id="landing" class="landing-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 id="title">HSTAT College Office</h1>
-          <a href="#about" class="btn btn-circle js-scroll-trigger"><i class="fa fa-angle-double-down animated"></i>
-        </a>
+  <!-- Intro Header -->
+  <header class="masthead">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h1 class="brand-heading">HSTAT College</h1>
+            <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-
+  </header>
+  
+  
+  
   <!--About Section-->
-  <section id="about" class="about-section text-center">
+  <section id="about" class="content-section text-center">
     <div class="container">
-      <div class="row" id="border">
+      <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>The High School of Telecommunication Arts and Technology</h2>
           <h4><b>(CEEB code: 330743)</b></h4>
@@ -94,12 +121,12 @@
               <p>Email: hstatcollege@hstat.org</p>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </section>
 
+  <br><br><br>
   <!-- Page Content -->
   <div class="container">
 
@@ -111,7 +138,7 @@
           <img class="card-img-top" src="img/seniors.JPG" alt="">
           <div class="card-body">
             <h4 class="card-title">Seniors</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <p class="card-text"></p>
           </div>
 
         </div>
@@ -122,7 +149,7 @@
           <img class="card-img-top" height="250px" src="img/junior.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Juniors</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -132,7 +159,7 @@
           <img class="card-img-top" src="img/teachers.gif" alt="">
           <div class="card-body">
             <h4 class="card-title">Teachers</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
@@ -142,7 +169,7 @@
           <img class="card-img-top" height="250px" src="img/parents.jpg" alt="">
           <div class="card-body">
             <h4 class="card-title">Parents</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+            <p class="card-text"></p>
           </div>
         </div>
       </div>
