@@ -422,4 +422,20 @@ footer .copyright {
 
 .quote{
   text-align: center;
+  border-left:  7px solid #343a40;
+  background-color: #8d9cab;
+  color: white;
+  font-style: bold;
+  font-size: 36px;
 }
+
+.student{
+  border-left: 7px solid #343a40;
+  padding: 7px;
+  background-color: #8d9cab;
+  color: white;
+  font-style: italic;
+  font-size: 22px;
+}
+
+
